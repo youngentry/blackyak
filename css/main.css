@@ -49,7 +49,16 @@
 .footer {
   background: #333;
   height: 600px;
+  padding-top: 80px;
   color: #fff;
+}
+.footer .headline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 300;
+}
+.footer .headline > li {
 }
 /* 
 .footer;; */
