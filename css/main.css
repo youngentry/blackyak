@@ -1,0 +1,55 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 
+.header;; */
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  white-space: nowrap;
+  text-transform: uppercase;
+  z-index: 999;
+}
+.header h1 {
+  width: 174px;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+}
+.header nav > ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 60px;
+}
+.header nav > .nav-right {
+  font-size: 15px;
+  gap: 15px;
+}
+.header nav > .nav-right i {
+  font-size: 21px;
+  vertical-align: middle;
+}
+
+/* 
+.header;; */
+
+.mainVisual {
+  height: calc(100vh);
+  background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
+}
+
+/* 
+.footer;; */
+.footer {
+  background: #333;
+  height: 600px;
+  color: #fff;
+}
+/* 
+.footer;; */
