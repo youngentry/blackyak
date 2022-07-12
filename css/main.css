@@ -17,7 +17,7 @@ body {
   white-space: nowrap;
   text-transform: uppercase;
   line-height: 100px;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
   z-index: 999;
 }
 .header.on {
@@ -26,7 +26,6 @@ body {
 }
 .header h1 {
   width: 174px;
-  transform: translateY(-4px);
 }
 .header nav {
   display: flex;
@@ -195,21 +194,34 @@ body {
 
 /* 
 .heritage;; */
-.heritage {
+.heritage .head {
+  padding-bottom: 10px;
 }
-.heritage h2 {
+.heritage .head h2 {
+  padding-bottom: 20px;
   text-transform: uppercase;
   font-size: 48px;
   font-weight: 900;
 }
+.heritage .head p {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: #444;
+}
 .heritage .content {
   display: flex;
 }
-.heritage figure {
-  flex: 1;
-}
+
 .heritage .content > div {
-  flex: 1;
+  display: flex;
+}
+.heritage .content img {
+}
+.heritage .content img figure {
+}
+.heritage .content .text {
 }
 /* 
 .heritage;; */
