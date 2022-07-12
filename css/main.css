@@ -1,25 +1,36 @@
+body {
+  background: #d0cbc5;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
 }
+
 /* 
 .header;; */
 .header {
   position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   width: 100%;
   white-space: nowrap;
   text-transform: uppercase;
+  line-height: 100px;
+  transition: 0.5s;
   z-index: 999;
+}
+.header.on {
+  line-height: 60px;
+  /* top: -102px; */
 }
 .header h1 {
   width: 174px;
+  transform: translateY(-4px);
 }
 .header nav {
   display: flex;
   justify-content: space-between;
-  line-height: 100px;
 }
 .header nav > ul {
   display: flex;
@@ -29,20 +40,179 @@
 }
 .header nav > .nav-right {
   font-size: 15px;
+  font-weight: 400;
   gap: 15px;
 }
 .header nav > .nav-right i {
   font-size: 21px;
-  vertical-align: middle;
+  vertical-align: -17%;
 }
 
 /* 
 .header;; */
 
+/* 
+.mainVisual;; */
 .mainVisual {
-  height: calc(100vh);
+  margin-bottom: 100px;
+  height: 100vh;
   background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
 }
+/* 
+.mainVisual;; */
+
+/* 
+.product;; */
+.product {
+  padding-bottom: 125px;
+}
+.product .head {
+  position: relative;
+  display: flex;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+}
+.product .title > p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.33em;
+  text-indent: 4px;
+  color: #444;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+}
+.product h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.product .more {
+  position: absolute;
+  top: 26px;
+  right: 35px;
+  font-size: 15px;
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+}
+.product .more::before,
+.product .more::after {
+  content: "";
+  position: absolute;
+  bottom: 17px;
+  left: 21px;
+  width: 70px;
+  height: 1px;
+  background: #444;
+  transition: 0.3s;
+}
+.product .more::after {
+  bottom: 23px;
+  left: 72px;
+  width: 20px;
+  transform: rotate(35deg);
+}
+
+.product .more:hover::before {
+  width: 90px;
+}
+.product .more:hover::after {
+  left: 92px;
+}
+.productSlider {
+  cursor: grab;
+}
+.productSlider:active {
+  cursor: grabbing;
+}
+.productSlider .slider {
+  display: flex;
+}
+.productSlider img {
+  width: 400px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+.productSlider .text {
+  padding: 30px 30px 0 30px;
+  width: 300px;
+}
+
+.productSlider .text p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 300x;
+  padding-bottom: 3px;
+  color: #555;
+  text-indent: 2px;
+}
+.productSlider .text strong {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.productSlider .text p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #222;
+}
+.productSlider .text p:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  font-size: 200px;
+  color: #555;
+}
+/* 
+.product;; */
+
+/* 
+.innovation;; .sticky;; */
+.innovation {
+  margin-bottom: 125px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.sticky .container {
+  display: flex;
+}
+.sticky figure {
+  flex: 1;
+}
+.sticky .img {
+  background: rgb(246, 72, 52);
+}
+.sticky .text {
+  background: rgb(67, 255, 148);
+}
+/* 
+.innovation;; .sticky;; */
+
+/* 
+.heritage;; */
+.heritage {
+}
+.heritage h2 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 900;
+}
+.heritage .content {
+  display: flex;
+}
+.heritage figure {
+  flex: 1;
+}
+.heritage .content > div {
+  flex: 1;
+}
+/* 
+.heritage;; */
 
 /* 
 .footer;; */
