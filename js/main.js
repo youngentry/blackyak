@@ -3,7 +3,7 @@ $(function () {
     var height = $(document).scrollTop();
     var d = e.originalEvent.deltaY;
     if (height >= 700) {
-      $(".header").css("background", "RGB(208, 203, 197)").css("border", "1px solid #999");
+      $(".header").css("background", "#e8e2db").css("border", "1px solid #999");
       if (d > 0) {
         $(".header").addClass("on");
         // console.log("내림");
