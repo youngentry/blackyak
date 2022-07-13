@@ -1,5 +1,8 @@
+.Wrap {
+  width: 1900px;
+}
 body {
-  background: #e8e2db;
+  background: #f2f2f2;
 }
 .container {
   width: 1200px;
@@ -22,7 +25,6 @@ body {
 }
 .header.on {
   line-height: 60px;
-  /* top: -102px; */
 }
 .header h1 {
   width: 174px;
@@ -63,7 +65,7 @@ body {
 /* 
 .product;; */
 .product {
-  padding-bottom: 125px;
+  padding-bottom: 100px;
 }
 .product .head {
   position: relative;
@@ -74,15 +76,15 @@ body {
 .product .title > p {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 0.33em;
+  letter-spacing: 0.5em;
   text-indent: 4px;
   color: #444;
   padding-bottom: 3px;
   text-transform: capitalize;
 }
 .product h2 {
-  font-size: 48px;
-  font-weight: 900;
+  font-size: 60px;
+  font-weight: 700;
 }
 .product .more {
   position: absolute;
@@ -168,25 +170,146 @@ body {
 /* 
 .innovation;; .sticky;; */
 .innovation {
-  margin-bottom: 125px;
+  margin-bottom: 100px;
 }
 .sticky {
   position: sticky;
-  top: 0;
+  top: 70px;
   display: flex;
   height: 100vh;
   overflow: hidden;
 }
+.introduction .container {
+  flex-direction: column;
+}
+.introduction h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.introduction h2::before {
+  content: "";
+  position: absolute;
+  left: -373px;
+  width: 1920px;
+  height: 85px;
+  background: url(../img/hhhh.jpg) no-repeat top center/cover;
+  filter: brightness(0.95);
+  z-index: -1;
+}
+.introduction h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+.introduction p:nth-child(2) {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+.introduction p:nth-child(3) {
+  font-size: 14px;
+  line-height: 1.35;
+  color: #555;
+  padding-bottom: 20px;
+}
+.introduction .head {
+  display: flex;
+}
+.introduction .lab figure {
+  padding-right: 15px;
+}
+.introduction .winning figure {
+  padding-left: 15px;
+}
+
+.introduction figure img {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.introduction .head a:last-child {
+  display: block;
+  padding: 8px 0 10px 0;
+  width: 585px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(247, 247, 247);
+  background: #444;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.introduction .lab a:hover,
+.introduction .winning a:hover {
+  color: #fff;
+  background: #111;
+}
+.introduction .winning a {
+  margin-left: 15px;
+}
+.sticky.content {
+  filter: brightness(0.95);
+  border-top: 1px solid rgb(175, 175, 175);
+}
+
+.sticky.content h2 {
+  padding-top: 13px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sticky01 {
+  top: calc(16% - 7px);
+  border-top: none;
+  background: url(../img/y01-p.jpg) no-repeat top center/contain;
+}
+.sticky02 {
+  top: calc(22% - 6px);
+
+  background: url(../img/y02-p.jpg) no-repeat top center/contain;
+}
+.sticky03 {
+  top: calc(28% - 6px);
+
+  background: url(../img/y03-p.jpg) no-repeat top center/contain;
+}
+.sticky04 {
+  top: calc(34% - 5px);
+  background: url(../img/y04-p.jpg) no-repeat top center/contain;
+}
+
+.sticky05 {
+  top: calc(40% - 4px);
+  background: url(../img/y06-p.jpg) no-repeat top center/contain;
+}
+.sticky06 {
+  background: seashell;
+}
+
 .sticky .container {
   display: flex;
 }
 .sticky figure {
   flex: 1;
 }
-.sticky .img {
-  background: rgb(246, 72, 52);
+.sticky.content img {
+  height: 500px;
 }
-.sticky .text {
+.sticky .left {
+  background: url(../img/BLACKYAK_OurHeritage_Header_3_1920x1920-cut.jpg) no-repeat center center/cover;
+}
+.sticky .right {
   background: rgb(67, 255, 148);
 }
 /* 
