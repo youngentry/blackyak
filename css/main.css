@@ -574,6 +574,19 @@ body {
 .footer .icons p {
   padding-bottom: 10px;
 }
+.footer .headline p {
+  padding-top: 20px;
+  position: relative;
+}
+.footer .headline p::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  height: 1px;
+  left: 0;
+  width: 150px;
+  background: rgb(191, 191, 191);
+}
 .footer .icons p:last-child {
   padding-bottom: 0px;
 }
@@ -599,8 +612,7 @@ body {
   justify-content: space-between;
 }
 .footer .headline li p {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 17px;
   padding-bottom: 18px;
   text-transform: uppercase;
 }
@@ -615,5 +627,6 @@ body {
   color: rgb(228, 228, 228);
   text-decoration: underline;
 }
+
 /* 
 .footer;; */
