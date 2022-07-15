@@ -565,8 +565,9 @@ body {
 /* 
 .footer;; */
 .footer {
+  position: relative;
   background: #333;
-  height: 600px;
+  height: 500px;
   padding-top: 80px;
   color: rgb(226, 226, 226);
 }
@@ -647,6 +648,14 @@ body {
   color: rgb(228, 228, 228);
   text-decoration: underline;
 }
-
+.footer .copy {
+  position: absolute;
+  bottom: 100px;
+  left: 350px;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: rgb(191, 191, 191);
+}
 /* 
 .footer;; */
