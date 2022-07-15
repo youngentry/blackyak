@@ -446,7 +446,7 @@ body {
 }
 .lumis {
   top: calc(13% + 23px);
-  height: calc(90vh - 120px);
+  height: calc(90vh - 20px);
   border-top: none;
 }
 .flow {
@@ -459,7 +459,7 @@ body {
 }
 .seal {
   top: calc(25% + 23px);
-  height: calc(90vh - 100px);
+  height: calc(90vh - 120px);
 }
 .box-wall {
   top: calc(29% + 23px);
