@@ -448,7 +448,7 @@ body {
 }
 .seal {
   top: calc(25% + 23px);
-  height: calc(90vh - 200px);
+  height: calc(90vh - 100px);
 }
 .box-wall {
   top: calc(29% + 23px);
@@ -555,6 +555,16 @@ body {
   height: 600px;
   padding-top: 80px;
   color: #fff;
+}
+.footer .left {
+  flex: 5;
+}
+.footer .right {
+  flex: 7;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
 }
 .footer .headline {
   display: flex;

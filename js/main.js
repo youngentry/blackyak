@@ -35,28 +35,29 @@ $(function () {
     function rLiTop(n) {
       return rLi.eq(n).offset().top + 100;
     }
+    var heriImg = $(".heritage .left img");
     var res = rLiTop(0);
     var aid = rLiTop(1);
     var sch = rLiTop(2);
     var mou = rLiTop(3);
     var cof = rLiTop(4);
     if (sct < heritage.top) {
-      $(".left img").attr("src", "./img/heritage.jpg");
+      heriImg.attr("src", "./img/heritage.jpg");
     }
     if (sct > res) {
-      $(".left img").attr("src", "./img/res.jpg");
+      heriImg.attr("src", "./img/res.jpg");
     }
     if (sct > aid) {
-      $(".left img").attr("src", "./img/aid.jpg");
+      heriImg.attr("src", "./img/aid.jpg");
     }
     if (sct > sch) {
-      $(".left img").attr("src", "./img/sch.jpg");
+      heriImg.attr("src", "./img/sch.jpg");
     }
     if (sct > mou) {
-      $(".left img").attr("src", "./img/mou.jpg");
+      heriImg.attr("src", "./img/mou.jpg");
     }
     if (sct > cof) {
-      $(".left img").attr("src", "./img/cof.jpg");
+      heriImg.attr("src", "./img/cof.jpg");
     }
   });
 
