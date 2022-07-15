@@ -44,28 +44,28 @@ $(function () {
     var [res, aid, sch, mou, cof] = [rLiTop(0), rLiTop(1), rLiTop(2), rLiTop(3), rLiTop(4)];
 
     if (sct < heritage.top) {
-      heriImg.attr("src", "./img/heritage.jpg");
+      heriImg.attr("src", "./img/d1.jpg");
       $(".heritage").css("background", "#f2f2f2");
     }
     if (sct > res) {
-      heriImg.attr("src", "./img/res.jpg");
-      $(".heritage").css("background", "#FFE4BA");
+      heriImg.attr("src", "./img/stk-flow.jpg");
+      $(".heritage").css("background", "#abd2e2");
     }
     if (sct > aid) {
-      heriImg.attr("src", "./img/aid.jpg");
-      $(".heritage").css("background", "#869c82");
+      heriImg.attr("src", "./img/d2.jpg");
+      $(".heritage").css("background", "#d4bfa0");
     }
     if (sct > sch) {
-      heriImg.attr("src", "./img/sch.jpg");
-      $(".heritage").css("background", "#D3C9B5");
+      heriImg.attr("src", "./img/d3.jpg");
+      $(".heritage").css("background", "#b791cc");
     }
     if (sct > mou) {
-      heriImg.attr("src", "./img/mou.jpg");
-      $(".heritage").css("background", "#96a387");
+      heriImg.attr("src", "./img/d4.png");
+      $(".heritage").css("background", "#eeece4");
     }
     if (sct > cof) {
-      heriImg.attr("src", "./img/cof.jpg");
-      $(".heritage").css("background", "#dcca89");
+      heriImg.attr("src", "./img/d5.jpg");
+      $(".heritage").css("background", "#e0f0f0");
     }
   });
 
