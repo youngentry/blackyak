@@ -63,7 +63,7 @@ body {
 .mainVisual h2 {
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 60%;
+  top: 68%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 40px;
