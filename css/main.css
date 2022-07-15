@@ -605,9 +605,12 @@ body {
 }
 .footer .icons i {
   font-size: 25px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-right: 5px;
   padding-bottom: 40px;
+}
+.footer .icons .payment {
+  padding-top: 10px;
 }
 .footer .icons .payment a {
   padding-right: 10px;
