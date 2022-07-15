@@ -40,21 +40,27 @@ $(function () {
 
     if (sct < heritage.top) {
       heriImg.attr("src", "./img/heritage.jpg");
+      $(".heritage").css("background", "#f2f2f2");
     }
     if (sct > res) {
       heriImg.attr("src", "./img/res.jpg");
+      $(".heritage").css("background", "#FFE4BA");
     }
     if (sct > aid) {
       heriImg.attr("src", "./img/aid.jpg");
+      $(".heritage").css("background", "#5d6d5a");
     }
     if (sct > sch) {
       heriImg.attr("src", "./img/sch.jpg");
+      $(".heritage").css("background", "#D3C9B5");
     }
     if (sct > mou) {
       heriImg.attr("src", "./img/mou.jpg");
+      $(".heritage").css("background", "#dcca89");
     }
     if (sct > cof) {
       heriImg.attr("src", "./img/cof.jpg");
+      $(".heritage").css("background", "#96a387");
     }
   });
 

@@ -476,6 +476,7 @@ body {
 .heritage;; */
 .heritage {
   padding-top: 250px;
+  transition: 2s;
 }
 .heritage h2 {
   font-size: 60px;
@@ -515,6 +516,7 @@ body {
   padding-bottom: 20px;
   letter-spacing: -0.025em;
   color: #444;
+  color: #dcca89;
 }
 
 .heritage .right .box {
