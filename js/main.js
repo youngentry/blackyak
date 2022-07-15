@@ -36,11 +36,8 @@ $(function () {
       return rLi.eq(n).offset().top + 100;
     }
     var heriImg = $(".heritage .left img");
-    var res = rLiTop(0);
-    var aid = rLiTop(1);
-    var sch = rLiTop(2);
-    var mou = rLiTop(3);
-    var cof = rLiTop(4);
+    var [res, aid, sch, mou, cof] = [rLiTop(0), rLiTop(1), rLiTop(2), rLiTop(3), rLiTop(4)];
+
     if (sct < heritage.top) {
       heriImg.attr("src", "./img/heritage.jpg");
     }
