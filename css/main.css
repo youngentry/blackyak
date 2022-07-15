@@ -55,9 +55,20 @@ body {
 /* 
 .mainVisual;; */
 .mainVisual {
+  position: relative;
   margin-bottom: 120px;
   height: 100vh;
   background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
+}
+.mainVisual h2 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 67%;
+  left: 38%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 /* 
 .mainVisual;; */
