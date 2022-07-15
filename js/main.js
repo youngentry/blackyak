@@ -48,7 +48,7 @@ $(function () {
     }
     if (sct > aid) {
       heriImg.attr("src", "./img/aid.jpg");
-      $(".heritage").css("background", "#5d6d5a");
+      $(".heritage").css("background", "#869c82");
     }
     if (sct > sch) {
       heriImg.attr("src", "./img/sch.jpg");
