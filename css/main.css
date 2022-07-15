@@ -595,7 +595,10 @@ body {
   height: 1px;
   left: 0;
   width: 150px;
-  background: rgb(191, 191, 191);
+  background: rgb(152, 152, 152);
+}
+.footer .headline li:hover p::after {
+  background: #fff;
 }
 .footer .icons p:last-child {
   padding-bottom: 0px;
