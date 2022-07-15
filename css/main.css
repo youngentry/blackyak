@@ -57,7 +57,7 @@ body {
 .mainVisual {
   margin-bottom: 120px;
   height: 100vh;
-  background: url(../img/mountain-298999.jpg) no-repeat center center/contain;
+  background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
 }
 /* 
 .mainVisual;; */
@@ -275,8 +275,8 @@ body {
 .innovation;; .sticky;; */
 .sticky {
   position: sticky;
-  top: 100px;
   display: flex;
+  top: 100px;
   height: 90vh;
   overflow: hidden;
 }
@@ -319,15 +319,14 @@ body {
   cursor: pointer;
 }
 .introduction p:nth-child(3) {
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 6px;
   padding-bottom: 30px;
   color: rgb(121, 121, 121);
 }
 .introduction p:nth-child(4) {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.025em;
@@ -455,35 +454,45 @@ body {
   top: calc(29% + 23px);
   height: calc(90vh - 50px);
 }
+.curtain {
+  position: relative;
+}
 
 /* 
 .innovation;; .sticky;; */
 
 /* 
 .heritage;; */
-
 .heritage {
-  padding-top: 100px;
+  padding-top: 500px;
+}
+.heritage h2 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 500px;
 }
 .heritage .content {
   display: flex;
   gap: 30px;
 }
 .heritage .left {
+  position: sticky;
+  top: 200px;
+  bottom: 200px;
   display: flex;
-  justify-content: center;
   flex: 1;
-  padding-bottom: 30px;
+  height: 70vh;
+  justify-content: center;
 }
 .heritage .left .heri img {
-  height: 500px;
+  max-width: 80%;
+  border-radius: 5px;
 }
 .heritage .right {
   flex: 1;
   font-size: 15px;
-  line-height: 1.5;
 }
-.heritage .head h2 {
+.heritage .head h3 {
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 500;
@@ -497,12 +506,24 @@ body {
   color: #444;
 }
 
-.heritage .right > p {
-  font-size: 15px;
-  line-height: 1.618;
-  letter-spacing: -0.025em;
-
-  padding-bottom: 40px;
+.heritage .right .box {
+  padding: 50px;
+  margin-bottom: 50vh;
+  line-height: 1.5;
+  color: #fff;
+  background: rgb(61, 61, 61);
+  border-radius: 10px;
+}
+.heritage .head {
+  padding-bottom: 20px;
+}
+.heritage .box p {
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.heritage .right .box:last-child {
+  margin-bottom: 256px;
 }
 .heritage .right .btn {
   display: flex;
@@ -512,17 +533,18 @@ body {
 .heritage .right .btn > a {
   width: 50%;
   padding: 8px 0 10px 0;
-  color: #222;
-  background: rgb(224, 224, 224);
+  color: rgb(43, 43, 43);
+  background: rgb(210, 210, 210);
   border-radius: 5px;
   text-align: center;
   transition: 0.2s;
 }
 .heritage .right a:hover,
 .heritage .right a:hover {
-  color: rgb(242, 242, 242);
-  background: rgb(40, 40, 40);
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
+
 /* 
 .heritage;; */
 
