@@ -349,6 +349,7 @@ body {
   position: relative;
   display: flex;
 }
+
 .introduction .head::before,
 .introduction .head::after {
   content: "";
