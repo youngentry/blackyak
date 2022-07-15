@@ -21,7 +21,7 @@ body {
   text-transform: uppercase;
   line-height: 100px;
   transition: 0.5s ease-in-out;
-  z-index: 999;
+  z-index: 9999;
 }
 .header.on {
   line-height: 60px;
@@ -63,7 +63,7 @@ body {
 .mainVisual h2 {
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 69%;
+  top: 60%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 40px;

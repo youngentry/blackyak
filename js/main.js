@@ -4,7 +4,7 @@ $(function () {
     var innovation = $(".innovationWrap").offset();
     var stickyBoxWall = $(".box-wall").offset();
     var d = e.originalEvent.deltaY;
-    if ((sct >= 600 && sct < innovation.top - 200) || sct > stickyBoxWall.top - 500) {
+    if ((sct >= 300 && sct < innovation.top - 200) || sct > stickyBoxWall.top - 300) {
       $(".header").css("background", "#f2f2f2").css("border-bottom", "1px solid #999");
       if (d > 0) {
         $(".header").addClass("on"); // DOWN!!!
@@ -12,8 +12,9 @@ $(function () {
       if (d < 0) {
         $(".header").removeClass("on"); // UP!!!
       }
-    } else {
+    } else if (sct < 300) {
       $(".header").css("background", "transparent").css("border-bottom", "none");
+    } else {
       if (d > 0) {
         $(".header").addClass("on"); // DOWN!!!
       }
@@ -30,7 +31,9 @@ $(function () {
     } else if (sct < stickyFlowTop) {
       introHead.css("visibility", "visible");
     }
-
+    // if ((sct >= 300 && sct < innovation.top - 200) || sct > stickyBoxWall.top - 300) {
+    //   $(".header").addClass("on");
+    // }
     var rLi = $(".heritage .right").children();
     function rLiTop(n) {
       return rLi.eq(n).offset().top + 100;
@@ -56,11 +59,11 @@ $(function () {
     }
     if (sct > mou) {
       heriImg.attr("src", "./img/mou.jpg");
-      $(".heritage").css("background", "#dcca89");
+      $(".heritage").css("background", "#96a387");
     }
     if (sct > cof) {
       heriImg.attr("src", "./img/cof.jpg");
-      $(".heritage").css("background", "#96a387");
+      $(".heritage").css("background", "#dcca89");
     }
   });
 
