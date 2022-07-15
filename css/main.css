@@ -554,7 +554,7 @@ body {
   background: #333;
   height: 600px;
   padding-top: 80px;
-  color: #fff;
+  color: rgb(226, 226, 226);
 }
 .footer .left {
   flex: 5;
@@ -566,13 +566,54 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.footer .icons {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.footer .icons p {
+  padding-bottom: 10px;
+}
+.footer .icons p:last-child {
+  padding-bottom: 0px;
+}
+.footer .icons i {
+  font-size: 25px;
+  padding-right: 5px;
+  padding-bottom: 40px;
+}
+.footer .icons .payment a {
+  padding-right: 10px;
+}
+.footer .icons .payment img {
+  height: 70px;
+}
+.footer .icons .payment .top {
+  display: flex;
+}
+.footer .icons .payment .bottom {
+  display: flex;
+}
 .footer .headline {
   display: flex;
   justify-content: space-between;
-  font-size: 17px;
-  font-weight: 300;
 }
-.footer .headline > li {
+.footer .headline li p {
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 18px;
+  text-transform: uppercase;
+}
+.footer .headline a {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 2;
+  color: rgb(191, 191, 191);
+  text-transform: uppercase;
+}
+.footer .headline a:hover {
+  color: rgb(228, 228, 228);
+  text-decoration: underline;
 }
 /* 
 .footer;; */
