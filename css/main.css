@@ -63,8 +63,8 @@ body {
 .mainVisual h2 {
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 67%;
-  left: 38%;
+  top: 66%;
+  left: 39%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 48px;
   font-weight: 700;
@@ -583,7 +583,6 @@ body {
   text-transform: capitalize;
 }
 .footer .icons p {
-  padding-bottom: 10px;
 }
 .footer .headline p {
   padding-top: 20px;
@@ -603,6 +602,7 @@ body {
 }
 .footer .icons i {
   font-size: 25px;
+  padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 40px;
 }
