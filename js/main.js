@@ -41,24 +41,12 @@ $(function () {
     var sch = rLiTop(2);
     var mou = rLiTop(3);
     var cof = rLiTop(4);
-    if (sct < heritage.top) {
-      heriImg.attr("src", "./img/heritage.jpg");
-    }
-    if (sct > res) {
-      heriImg.attr("src", "./img/res.jpg");
-    }
-    if (sct > aid) {
-      heriImg.attr("src", "./img/aid.jpg");
-    }
-    if (sct > sch) {
-      heriImg.attr("src", "./img/sch.jpg");
-    }
-    if (sct > mou) {
-      heriImg.attr("src", "./img/mou.jpg");
-    }
-    if (sct > cof) {
-      heriImg.attr("src", "./img/cof.jpg");
-    }
+    if (sct < heritage.top) heriImg.attr("src", "./img/heritage.jpg");
+    if (sct > res) heriImg.attr("src", "./img/res.jpg");
+    if (sct > aid) heriImg.attr("src", "./img/aid.jpg");
+    if (sct > sch) heriImg.attr("src", "./img/sch.jpg");
+    if (sct > mou) heriImg.attr("src", "./img/mou.jpg");
+    if (sct > cof) heriImg.attr("src", "./img/cof.jpg");
   });
 
   $(".productSlider").slick({
