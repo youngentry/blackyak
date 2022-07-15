@@ -16,6 +16,8 @@ $(function () {
       $(".header").css("background", "transparent").css("border-bottom", "none");
     } else {
       if (d > 0) {
+        $(".header").css("background", "transparent").css("border-bottom", "none");
+
         $(".header").addClass("on"); // DOWN!!!
       }
     }
