@@ -539,15 +539,16 @@ body {
   width: 50%;
   padding: 8px 0 10px 0;
   color: rgb(2, 2, 2);
-  background: rgba(0, 0, 0, 0.205);
+  border: 1px solid #999;
   border-radius: 5px;
   text-align: center;
   transition: 0.2s;
 }
 .heritage .right a:hover,
 .heritage .right a:hover {
-  color: rgb(0, 0, 0);
-  background: rgba(224, 224, 224, 0.137);
+  color: rgb(237, 237, 237);
+  background: rgb(67, 67, 67);
+  border: 1px solid rgb(67, 67, 67);
 }
 
 /* 
