@@ -516,7 +516,7 @@ body {
   margin-bottom: 50vh;
   line-height: 1.5;
   color: rgb(0, 0, 0);
-  background: rgb(226, 226, 226);
+  background: rgba(255, 255, 255, 0.352);
   border-radius: 10px;
 }
 .heritage .head {
@@ -539,7 +539,7 @@ body {
   width: 50%;
   padding: 8px 0 10px 0;
   color: rgb(2, 2, 2);
-  background: rgb(210, 210, 210);
+  background: rgba(49, 49, 49, 0.197);
   border-radius: 5px;
   text-align: center;
   transition: 0.2s;
@@ -547,7 +547,7 @@ body {
 .heritage .right a:hover,
 .heritage .right a:hover {
   color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
+  background: rgb(228, 228, 228);
 }
 
 /* 
