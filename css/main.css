@@ -539,7 +539,7 @@ body {
   width: 50%;
   padding: 8px 0 10px 0;
   color: rgb(2, 2, 2);
-  background: rgba(49, 49, 49, 0.197);
+  background: rgba(0, 0, 0, 0.205);
   border-radius: 5px;
   text-align: center;
   transition: 0.2s;
@@ -547,7 +547,7 @@ body {
 .heritage .right a:hover,
 .heritage .right a:hover {
   color: rgb(0, 0, 0);
-  background: rgb(228, 228, 228);
+  background: rgba(224, 224, 224, 0.137);
 }
 
 /* 
