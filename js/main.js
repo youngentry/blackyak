@@ -65,7 +65,7 @@ $(function () {
     }
     if (sct > cof) {
       heriImg.attr("src", "./img/d5.jpg");
-      $(".heritage").css("background", "#e0f0f0");
+      $(".heritage").css("background", "#d4dfe1");
     }
   });
 
