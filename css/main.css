@@ -1,52 +1,52 @@
 .Wrap {
-  width: 1900px;
+    width: 1900px;
 }
 body {
-  background: #f2f2f2;
+    background: #f2f2f2;
 }
 .container {
-  width: 1200px;
-  margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* 
 .header;; */
 .header {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  white-space: nowrap;
-  text-transform: uppercase;
-  line-height: 100px;
-  transition: 0.5s ease-in-out;
-  z-index: 9999;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+    line-height: 100px;
+    transition: 0.5s ease-in-out;
+    z-index: 9999;
 }
 .header.on {
-  line-height: 60px;
+    line-height: 60px;
 }
 .header h1 {
-  width: 174px;
+    width: 174px;
 }
 .header nav {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .header nav > ul {
-  display: flex;
-  font-size: 16px;
-  font-weight: 700;
-  gap: 60px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 60px;
 }
 .header nav > .nav-right {
-  font-size: 15px;
-  font-weight: 400;
-  gap: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 15px;
 }
 .header nav > .nav-right i {
-  font-size: 21px;
-  vertical-align: -17%;
+    font-size: 21px;
+    vertical-align: -17%;
 }
 
 /* 
@@ -55,20 +55,20 @@ body {
 /* 
 .mainVisual;; */
 .mainVisual {
-  position: relative;
-  margin-bottom: 120px;
-  height: 100vh;
-  background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
+    position: relative;
+    margin-bottom: 120px;
+    height: 100vh;
+    background: url(../img/mountain-298999.jpg) no-repeat center center/cover;
 }
 .mainVisual h2 {
-  font-family: "Poppins", sans-serif;
-  position: absolute;
-  top: 68%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
 }
 /* 
 .mainVisual;; */
@@ -76,105 +76,99 @@ body {
 /* 
 .product;; */
 .product {
-  padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 .product .head {
-  position: relative;
-  display: flex;
-  padding-bottom: 30px;
-  overflow-x: hidden;
+    position: relative;
+    display: flex;
+    padding-bottom: 30px;
+    overflow-x: hidden;
 }
 .product .title > p {
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  text-indent: 4px;
-  color: #444;
-  padding-bottom: 3px;
-  text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-indent: 4px;
+    color: #444;
+    padding-bottom: 3px;
+    text-transform: capitalize;
 }
 .product h2 {
-  font-size: 36px;
-  font-weight: 500;
+    font-size: 36px;
+    font-weight: 500;
 }
 .more {
-  position: absolute;
-  top: 26px;
-  right: 19px;
-  font-size: 13px;
-  padding: 20px;
-  cursor: pointer;
-  color: #333;
+    position: absolute;
+    top: 26px;
+    right: 19px;
+    font-size: 13px;
+    padding: 20px;
+    cursor: pointer;
+    color: #333;
 }
 .more::before,
 .more::after {
-  content: "";
-  position: absolute;
-  bottom: 17px;
-  left: 21px;
-  width: 70px;
-  height: 1px;
-  background: #444;
-  transition: 0.3s;
+    content: "";
+    position: absolute;
+    bottom: 17px;
+    left: 21px;
+    width: 70px;
+    height: 1px;
+    background: #444;
+    transition: 0.3s;
 }
 .more::after {
-  bottom: 23px;
-  left: 72px;
-  width: 20px;
-  transform: rotate(35deg);
+    bottom: 23px;
+    left: 72px;
+    width: 20px;
+    transform: rotate(35deg);
 }
 
-.more:hover::before {
-  width: 86px;
-}
-.more:hover::after {
-  left: 88px;
-}
 .productSlider {
-  cursor: grab;
+    cursor: grab;
 }
 .productSlider:active {
-  cursor: grabbing;
+    cursor: grabbing;
 }
 .productSlider .slider {
-  display: flex;
+    display: flex;
 }
 .productSlider img {
-  width: 400px;
-  border: 1px solid #999;
-  border-radius: 10px;
+    width: 400px;
+    border: 1px solid #999;
+    border-radius: 10px;
 }
 .productSlider .text {
-  padding: 30px 30px 0 30px;
-  width: 300px;
+    padding: 30px 30px 0 30px;
+    width: 300px;
 }
 
 .productSlider .text p:nth-child(1) {
-  font-size: 13px;
-  font-weight: 300x;
-  padding-bottom: 3px;
-  color: #555;
-  text-indent: 2px;
+    font-size: 13px;
+    font-weight: 300x;
+    padding-bottom: 3px;
+    color: #555;
+    text-indent: 2px;
 }
 .productSlider .text strong {
-  display: block;
-  font-size: 26px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-bottom: 20px;
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 .productSlider .text p:nth-child(3) {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.025em;
-  color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -0.025em;
+    color: #333;
 }
 .productSlider .text p:nth-child(4) {
-  position: absolute;
-  bottom: 0;
-  font-size: 160px;
-  color: #999;
+    position: absolute;
+    bottom: 0;
+    font-size: 160px;
+    color: #999;
 }
 /* 
 .product;; */
@@ -182,58 +176,58 @@ body {
 /* 
 .season;; */
 .season {
-  padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 .season .container {
-  width: 1230px;
+    width: 1230px;
 }
 .season h2 {
-  text-transform: uppercase;
-  font-size: 36px;
-  font-weight: 500;
-  padding-bottom: 30px;
-  padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-left: 15px;
 }
 .season figure {
-  padding: 0 15px;
-  padding-bottom: 10px;
+    padding: 0 15px;
+    padding-bottom: 10px;
 }
 .season .info {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 .season strong {
-  display: block;
-  font-size: 16px;
-  padding-bottom: 8px;
+    display: block;
+    font-size: 16px;
+    padding-bottom: 8px;
 }
 .season strong:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .season .price {
-  display: flex;
-  padding-bottom: 20px;
+    display: flex;
+    padding-bottom: 20px;
 }
 .season .price p:nth-child(1) {
-  font-size: 20px;
-  font-weight: 700;
-  padding-right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 5px;
 }
 .season .price p:nth-child(2) {
-  font-size: 13px;
-  font-weight: 300;
-  text-decoration: line-through;
-  color: rgb(161, 161, 161);
-  padding-right: 5px;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: line-through;
+    color: rgb(161, 161, 161);
+    padding-right: 5px;
 }
 .season .price p:nth-child(3) {
-  font-size: 17px;
-  font-weight: 700;
-  color: #ff5c47;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ff5c47;
 }
 .season .review {
-  font-size: 13px;
-  font-weight: 300;
-  color: rgb(118, 118, 118);
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(118, 118, 118);
 }
 /* 
 .season;; */
@@ -241,43 +235,43 @@ body {
 /* 
 .promotion;; */
 .promotion {
-  padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 .promotion h2 {
-  text-transform: uppercase;
-  font-size: 36px;
-  font-weight: 500;
-  padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 30px;
 }
 .promotionSlider {
-  position: relative;
+    position: relative;
 }
 .promotion .slick-arrow {
-  position: absolute;
-  top: calc(50% - 25px);
-  width: 50px;
-  height: 50px;
-  font-size: 0;
-  background: none;
-  border: none;
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    background: none;
+    border: none;
 
-  border-top: 1px solid #666;
-  border-left: 1px solid #666;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
 }
 .promotion .slick-arrow:hover {
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
 }
 .promotion .slick-prev {
-  position: absolute;
-  left: 30px;
-  transform: rotate(-45deg);
-  z-index: 999;
+    position: absolute;
+    left: 30px;
+    transform: rotate(-45deg);
+    z-index: 999;
 }
 .promotion .slick-next {
-  position: absolute;
-  right: 30px;
-  transform: rotate(135deg);
+    position: absolute;
+    right: 30px;
+    transform: rotate(135deg);
 }
 
 /* 
@@ -286,190 +280,190 @@ body {
 /* 
 .innovation;; .sticky;; */
 .sticky {
-  position: sticky;
-  display: flex;
-  top: 100px;
-  height: 90vh;
-  overflow: hidden;
+    position: sticky;
+    display: flex;
+    top: 100px;
+    height: 90vh;
+    overflow: hidden;
 }
 .sticky .container > div {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 .introduction .container {
-  flex-direction: column;
+    flex-direction: column;
 }
 .introduction h2 {
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  text-transform: uppercase;
-  font-size: 36px;
-  font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
 }
 .introduction h2::after {
-  content: "";
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #999;
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #999;
 }
 .introduction h2 > i {
-  font-size: 17px;
-  padding-left: 10px;
-  vertical-align: middle;
-  color: #222;
+    font-size: 17px;
+    padding-left: 10px;
+    vertical-align: middle;
+    color: #222;
 }
 .introduction .more {
-  top: 0px;
-  right: 371px;
-  font-size: 13px;
-  padding: 20px;
-  cursor: pointer;
+    top: 0px;
+    right: 371px;
+    font-size: 13px;
+    padding: 20px;
+    cursor: pointer;
 }
 .introduction p:nth-child(3) {
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 6px;
-  padding-bottom: 30px;
-  color: rgb(121, 121, 121);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+    color: rgb(121, 121, 121);
 }
 .introduction p:nth-child(4) {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: -0.025em;
-  padding-bottom: 30px;
-  color: #333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    padding-bottom: 30px;
+    color: #333;
 }
 .introduction .head {
-  position: relative;
-  display: flex;
+    position: relative;
+    display: flex;
 }
 
 .introduction .head::before,
 .introduction .head::after {
-  content: "";
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(calc(-30px + 50%)) rotate(-45deg);
-  width: 30px;
-  height: 30px;
-  border-left: 1px solid #999;
-  border-bottom: 1px solid #999;
-  animation: arrowDown 1s ease-in-out infinite;
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(calc(-30px + 50%)) rotate(-45deg);
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    animation: arrowDown 1s ease-in-out infinite;
 }
 .introduction .head::after {
-  transform: translateX(calc(-30px + 50%)) translateY(15px) rotate(-45deg);
+    transform: translateX(calc(-30px + 50%)) translateY(15px) rotate(-45deg);
 }
 
 @keyframes arrowDown {
-  from {
-    bottom: -50px;
-  }
-  to {
-    bottom: -90px;
-  }
+    from {
+        bottom: -50px;
+    }
+    to {
+        bottom: -90px;
+    }
 }
 
 .introduction figure {
-  padding-right: 0px;
+    padding-right: 0px;
 }
 .introduction figure img {
-  border-radius: 5px;
-  margin-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 .introduction .head a:last-child {
-  display: block;
-  padding: 8px 0 10px 0;
-  width: 585px;
-  font-size: 15px;
-  font-weight: 500;
-  text-align: center;
-  color: #222;
-  background: rgb(224, 224, 224);
-  border-radius: 5px;
-  text-transform: uppercase;
-  transition: 0.2s;
+    display: block;
+    padding: 8px 0 10px 0;
+    width: 585px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #222;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.2s;
 }
 .introduction .lab a:hover,
 .introduction .winning a:hover {
-  color: rgb(242, 242, 242);
-  background: rgb(40, 40, 40);
+    color: rgb(242, 242, 242);
+    background: rgb(40, 40, 40);
 }
 
 .sticky.content {
-  font-family: "Poppins", sans-serif;
-  border-top: 1px solid rgb(175, 175, 175);
-  background: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    border-top: 1px solid rgb(175, 175, 175);
+    background: #f2f2f2;
 }
 .sticky.content:last-child {
-  border-top: none;
-  background: url(../img/stk-lumis.jpg) no-repeat center center/contain;
+    border-top: none;
+    background: url(../img/stk-lumis.jpg) no-repeat center center/contain;
 }
 .sticky.content h2 i {
-  font-size: 13px;
-  padding-left: 10px;
-  vertical-align: 0%;
-  color: #666;
+    font-size: 13px;
+    padding-left: 10px;
+    vertical-align: 0%;
+    color: #666;
 }
 .sticky.content h2 {
-  padding-top: 10px;
-  font-size: 19px;
-  font-weight: 300;
-  text-transform: uppercase;
-  line-height: 1;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
 }
 .sticky .container h2 {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .sticky .container > div p {
-  position: relative;
-  flex: 1;
-  font-size: 15px;
-  line-height: 1.4;
+    position: relative;
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.4;
 }
 .sticky .container > div figure {
-  flex: 1;
+    flex: 1;
 }
 .sticky.content p i {
-  font-size: 20px;
-  vertical-align: top;
-  padding: 5px;
-  border-radius: 5px;
+    font-size: 20px;
+    vertical-align: top;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .introduction {
-  height: 120vh;
+    height: 120vh;
 }
 .lumis {
-  top: calc(13% + 23px);
-  height: calc(90vh - 20px);
-  border-top: none;
+    top: calc(13% + 23px);
+    height: calc(90vh - 20px);
+    border-top: none;
 }
 .flow {
-  top: calc(17% + 23px);
-  height: calc(90vh - 140px);
+    top: calc(17% + 23px);
+    height: calc(90vh - 140px);
 }
 .hooks {
-  top: calc(21% + 23px);
-  height: calc(90vh - 150px);
+    top: calc(21% + 23px);
+    height: calc(90vh - 150px);
 }
 .seal {
-  top: calc(25% + 23px);
-  height: calc(90vh - 120px);
+    top: calc(25% + 23px);
+    height: calc(90vh - 120px);
 }
 .box-wall {
-  top: calc(29% + 23px);
-  height: calc(90vh - 50px);
+    top: calc(29% + 23px);
+    height: calc(90vh - 50px);
 }
 .curtain {
-  position: relative;
-  top: 0;
+    position: relative;
+    top: 0;
 }
 
 /* 
@@ -478,78 +472,78 @@ body {
 /* 
 .heritage;; */
 .heritage {
-  padding-top: 170px;
-  transition: 2s;
+    padding-top: 170px;
+    transition: 2s;
 }
 .heritage h2 {
-  font-size: 60px;
-  font-weight: 700;
-  padding-bottom: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 200px;
 }
 .heritage .content {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 .heritage .left {
-  position: sticky;
-  top: 200px;
-  bottom: 200px;
-  display: flex;
-  flex: 1;
-  height: 70vh;
-  justify-content: center;
+    position: sticky;
+    top: 200px;
+    bottom: 200px;
+    display: flex;
+    flex: 1;
+    height: 47vh;
+    justify-content: center;
 }
 .heritage .left .heri img {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 .heritage .right {
-  flex: 1;
-  font-size: 15px;
+    flex: 1;
+    font-size: 15px;
 }
 .heritage .head h3 {
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
 }
 .heritage .right .box {
-  padding: 50px;
-  margin-bottom: 50vh;
-  line-height: 1.5;
-  color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, 0.352);
-  border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 30vh;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.352);
+    border-radius: 10px;
 }
 .heritage .head {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .heritage .box p {
-  font-size: 13px;
-  font-weight: 400;
-  padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
 .heritage .right .box:last-child {
-  margin-bottom: 323px;
+    margin-bottom: 45px;
 }
 .heritage .right .btn {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .heritage .right .btn > a {
-  width: 50%;
-  padding: 8px 0 10px 0;
-  font-size: 13px;
-  color: rgb(39, 39, 39);
-  border: 1px solid #999;
-  border-radius: 5px;
-  text-align: center;
-  transition: 0.2s;
+    width: 50%;
+    padding: 8px 0 10px 0;
+    font-size: 13px;
+    color: rgb(39, 39, 39);
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
 }
 .heritage .right a:hover,
 .heritage .right a:hover {
-  color: rgb(237, 237, 237);
-  background: rgb(67, 67, 67);
-  border: 1px solid rgb(67, 67, 67);
+    color: rgb(237, 237, 237);
+    background: rgb(67, 67, 67);
+    border: 1px solid rgb(67, 67, 67);
 }
 
 /* 
@@ -558,97 +552,97 @@ body {
 /* 
 .footer;; */
 .footer {
-  position: relative;
-  background: #333;
-  height: 500px;
-  padding-top: 80px;
-  color: rgb(226, 226, 226);
+    position: relative;
+    background: #333;
+    height: 500px;
+    padding-top: 80px;
+    color: rgb(226, 226, 226);
 }
 .footer .left {
-  flex: 5;
+    flex: 5;
 }
 .footer .right {
-  flex: 7;
+    flex: 7;
 }
 .footer .container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .footer .icons {
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 .footer .icons p {
 }
 .footer .headline p {
-  padding-top: 20px;
-  position: relative;
+    padding-top: 20px;
+    position: relative;
 }
 .footer .headline p::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  height: 1px;
-  left: 0;
-  width: 150px;
-  background: rgb(152, 152, 152);
+    content: "";
+    position: absolute;
+    top: 0px;
+    height: 1px;
+    left: 0;
+    width: 150px;
+    background: rgb(152, 152, 152);
 }
 .footer .headline li:hover p::after {
-  background: #fff;
+    background: #fff;
 }
 .footer .icons p:last-child {
-  padding-bottom: 0px;
+    padding-bottom: 0px;
 }
 .footer .icons i {
-  font-size: 25px;
-  padding-top: 15px;
-  padding-right: 5px;
-  padding-bottom: 40px;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 40px;
 }
 .footer .icons .payment {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 .footer .icons .payment a {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 .footer .icons .payment img {
-  height: 60px;
+    height: 60px;
 }
 .footer .icons .payment .top {
-  display: flex;
+    display: flex;
 }
 .footer .icons .payment .bottom {
-  display: flex;
+    display: flex;
 }
 .footer .headline {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .footer .headline li p {
-  font-size: 17px;
-  padding-bottom: 18px;
-  text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
 }
 .footer .headline a {
-  font-size: 13px;
-  font-weight: 300;
-  line-height: 2;
-  color: rgb(191, 191, 191);
-  text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(191, 191, 191);
+    text-transform: uppercase;
 }
 .footer .headline a:hover {
-  color: rgb(228, 228, 228);
-  text-decoration: underline;
+    color: rgb(228, 228, 228);
+    text-decoration: underline;
 }
 .footer .copy {
-  position: absolute;
-  bottom: 100px;
-  left: 350px;
-  font-size: 13px;
-  font-weight: 100;
-  line-height: 1.5;
-  color: rgb(191, 191, 191);
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: rgb(191, 191, 191);
 }
 .footer .copy a {
 }
